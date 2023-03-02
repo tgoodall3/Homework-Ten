@@ -1,0 +1,156 @@
+@media only screen and (max-width: 500px) {
+    .BlogContent{
+        display: flex;
+        
+        img{
+            
+        }
+    }
+}
+
+
+.BlogContent{
+    max-width: 80%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+    .header{
+        margin-bottom: 30px;
+        span{
+            font-size: 30px;
+            font-family: primanovacondensed;
+            border-bottom: 2px black solid;
+        }
+    }
+
+    .TopContent{
+        display: flex;
+        flex-direction: column;
+
+        .DateImg{
+            display: flex;
+
+      .date{
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        background-color: #79ADDC;
+        border-bottom: none;
+        margin-right: 10px;
+        color: white;
+        span{
+            
+            font-family: gillsansbold;
+            font-size: 22px;
+        }
+      }
+        .image{
+            img{
+                display: flex;
+                width: 900px;
+                height: 259px;
+            }
+        }
+    }
+        .textContent{
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 70px;
+        }
+        .head{
+            margin-top: 20px;
+            span{
+                font-family: gillsansbold;
+                font-size: 16px;
+            }
+        }
+        .text{
+            width: 290px;
+            margin-top: 20px;
+            span{
+                font-family: gillsansbold;
+                font-size: 16px;
+                color: #79ADDC;
+            }
+        }
+        button{
+            background-color: #79ADDC;
+            border-radius: 16px;
+            border: none;
+            width: 133px;
+            height: 40px;
+            font-family: gillsansbold;
+            color: white;
+        }
+    }
+
+    .BottomContent{
+        margin-top: 50px;
+        
+        .DateImg{
+            display: flex;
+
+      .date{
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        background-color: #79ADDC;
+        border-bottom: none;
+        margin-right: 10px;
+        span{
+            color: white;
+            font-family: gillsansbold;
+            font-size: 22px;
+        }
+      }
+        .image{
+            img{
+                display: flex;
+                width: 900px;
+                height: 259px;
+            }
+        }
+    }
+        .textContent{
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 70px;
+            .head{
+                margin-top: 20px;
+                span{
+                    font-family: gillsansbold;
+                    font-size: 16px;
+                }
+            }
+            .text{
+                width: 290px;
+                margin-top: 20px;
+                span{
+                    font-family: gillsansbold;
+                    font-size: 16px;
+                    color: #79ADDC;
+                }
+            }
+
+            button{
+                background-color: #79ADDC;
+                border-radius: 16px;
+                border: none;
+                width: 133px;
+                height: 40px;
+                font-family: gillsansbold;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,2051 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-Container {
+  max-width: 1100px;
+  min-height: 500px;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+nav {
+  height: 0;
+  top: 50px;
+  left: 300px;
+  position: fixed;
+  background-color: transparent;
+  width: 800px;
+  max-width: 800px;
+  min-width: 100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .links {
+  height: 42px;
+  width: 300px;
+  white-space: nowrap;
+}
+nav .links a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+nav .links span {
+  margin-left: 5px;
+  color: white;
+}
+nav .logo {
+  border: white 2px solid;
+  height: 42px;
+  width: 80px;
+}
+nav .logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 17px;
+  font-size: 20px;
+  font-family: gillsansbold;
+  white-space: nowrap;
+  color: white;
+  width: 92px;
+  height: 42px;
+}
+
+.bottom {
+  width: 90%;
+  border-bottom: 2px black solid;
+  position: fixed;
+  top: 80px;
+  left: 60px;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@media only screen and (max-width: 600px) {
+  .promo-trips {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 120px;
+  }
+  .booking .book {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .booking input {
+    width: 300px;
+  }
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero .header {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: gillsanslight;
+  color: white;
+}
+.hero .subHeader {
+  font-size: 20px;
+  margin-bottom: 20px;
+  max-width: 750px;
+  text-align: center;
+  color: white;
+}
+.hero .subHeader span {
+  max-width: 750px;
+  font-family: gillsansbold;
+}
+.hero .button button {
+  border: none;
+  background-color: #79ADDC;
+  margin-top: 20px;
+  width: 121px;
+  height: 40px;
+  font-family: gillsansbold;
+  color: white;
+}
+
+.promo-trips {
+  margin-top: -50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.promo-trips .isreal {
+  position: relative;
+  width: 304px;
+  height: 236px;
+}
+.promo-trips .isreal .image img {
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 304px;
+  width: 236px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.promo-trips .isreal .text {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  font-size: 60px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.promo-trips .isreal .text .subText {
+  position: absolute;
+  top: 80%;
+  left: -5%;
+  font-size: 30px;
+  white-space: nowrap;
+}
+.promo-trips .isreal button {
+  background-color: #79ADDC;
+  height: 40px;
+  width: 133px;
+  position: absolute;
+  bottom: 0%;
+  left: 18%;
+  font-size: 20px;
+  border: none;
+  font-family: gillsansbold;
+  color: white;
+  border-radius: 16px;
+}
+.promo-trips .USA {
+  position: relative;
+  width: 304px;
+  height: 236px;
+}
+.promo-trips .USA .image {
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.promo-trips .USA .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 304px;
+  width: 236px;
+}
+.promo-trips .USA .text {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  font-size: 60px;
+  color: white;
+  font-family: primanovacondensed;
+}
+.promo-trips .USA .text .subText {
+  position: absolute;
+  top: 80%;
+  left: -6%;
+  font-size: 30px;
+  white-space: nowrap;
+}
+.promo-trips .USA button {
+  background-color: #79ADDC;
+  height: 40px;
+  width: 133px;
+  position: absolute;
+  bottom: 0%;
+  left: 18%;
+  font-size: 20px;
+  border: none;
+  font-family: gillsansbold;
+  color: white;
+  border-radius: 16px;
+}
+.promo-trips .Australia {
+  position: relative;
+  width: 304px;
+  height: 236px;
+}
+.promo-trips .Australia .image {
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.promo-trips .Australia .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 304px;
+  width: 236px;
+}
+.promo-trips .Australia .text {
+  position: absolute;
+  top: 40%;
+  left: 13%;
+  font-size: 60px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.promo-trips .Australia .text .subText {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  font-size: 30px;
+  white-space: nowrap;
+}
+.promo-trips .Australia button {
+  background-color: #79ADDC;
+  height: 40px;
+  width: 133px;
+  position: absolute;
+  bottom: 0%;
+  left: 18%;
+  font-size: 60px;
+  font-size: 20px;
+  border: none;
+  font-family: gillsansbold;
+  color: white;
+  border-radius: 16px;
+}
+
+.booking {
+  max-width: 818px;
+  margin-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+}
+.booking .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 60px;
+  margin-bottom: 50px;
+  font-family: primanovacondensed;
+}
+.booking form {
+  width: 818px;
+}
+.booking form .inputs .book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+}
+.booking form .inputs .book .rowOne {
+  margin-bottom: 15px;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.booking form .inputs .book .rowOne input {
+  height: 58px;
+  width: 344px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: gillsansbold;
+  padding: 10px;
+  border: #79ADDC 1px solid;
+}
+.booking form .inputs .book .rowTwo {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.booking form .inputs .book .rowTwo input {
+  height: 58px;
+  width: 453px;
+  margin-bottom: 10px;
+  font-family: gillsansbold;
+  padding: 10px;
+  color: black;
+  border: #79ADDC 1px solid;
+}
+.booking form .inputs .column {
+  margin: 0 auto;
+}
+.booking form .inputs .column .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+}
+.booking form .inputs .column .top input {
+  width: 698px;
+  height: 58px;
+  margin-bottom: 10px;
+  border: #79ADDC 1px solid;
+}
+.booking form .inputs .column .top span {
+  font-family: gillsansbold;
+  margin-top: 20px;
+  margin-right: 42px;
+}
+.booking form .inputs .column .bottoms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+}
+.booking form .inputs .column .bottoms input {
+  width: 698px;
+  height: 58px;
+  margin-bottom: 10px;
+  border: #79ADDC 1px solid;
+}
+.booking form .inputs .column .bottoms span {
+  font-family: gillsansbold;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.booking form .inputs .rowThree {
+  margin: 0 auto;
+  margin-left: 2px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 910px;
+}
+.booking form .inputs .rowThree input {
+  width: 103px;
+  height: 58px;
+  font-family: gillsansbold;
+  padding: 10px;
+  border: #79ADDC 1px solid;
+  margin-right: 65px;
+}
+.booking form .inputs .rowThree span {
+  margin-top: 20px;
+  font-family: gillsansbold;
+  color: black;
+}
+.booking form .inputs .messages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.booking form .inputs .messages input {
+  width: 818px;
+  height: 192px;
+  color: black;
+  font-family: gillsansbold;
+  padding: 10px;
+  border: #79ADDC 1px solid;
+  margin-bottom: 20px;
+}
+.booking form button {
+  width: 818px;
+  height: 61px;
+  background-color: #79ADDC;
+  border: none;
+  font-family: gillsansbold;
+  color: white;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 90px;
+  height: 100px;
+  width: 100%;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .copyright span {
+  font-family: gillsansbold;
+  font-size: 12px;
+  color: white;
+}
+footer .logo {
+  border: white 2px solid;
+  height: 42px;
+  width: 80px;
+}
+footer .logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 17px;
+  font-size: 20px;
+  font-family: gillsansbold;
+  white-space: nowrap;
+  color: white;
+  width: 92px;
+  height: 42px;
+}
+footer .socials img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  width: 150px;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@media only screen and (max-width: 700px) {
+  .ClientOne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ClientOne .text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ClientOne .text .Quote {
+    margin-left: -350px;
+  }
+  .ClientOne .AboutContent {
+    margin-left: 200px;
+  }
+  .ClientTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ClientTwo .text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ClientTwo .text .Quote {
+    margin-left: -350px;
+  }
+  .Clients {
+    position: relative;
+  }
+  .Clients .Quote {
+    width: 400px;
+  }
+  .Clients .name {
+    position: absolute;
+    left: -300px;
+    margin-top: 120px;
+  }
+}
+.AboutContent {
+  margin-top: 200px;
+  max-height: 100%;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+.AboutContent .header {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+.AboutContent .header span {
+  font-size: 60px;
+  border-bottom: 2px black solid;
+  font-family: primanovacondensed;
+}
+.AboutContent .text {
+  max-width: 85%;
+  padding: 10px;
+  width: 85%;
+  margin-left: 100px;
+}
+.AboutContent .text span {
+  font-size: 16px;
+  font-family: gillsansbold;
+}
+
+.Clients {
+  margin-left: 100px;
+  margin-top: 100px;
+  height: 50%;
+  width: 100%;
+}
+.Clients .header span {
+  margin-left: -110px;
+}
+.Clients .ClientOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Clients .ClientOne .clientImg img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 260px;
+}
+.Clients .ClientOne .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin-right: 100px;
+}
+.Clients .ClientOne .text .Quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Clients .ClientOne .text .Quote span {
+  font-family: gillsansbold;
+  width: 750px;
+}
+.Clients .ClientOne .text .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-left: 600px;
+}
+.Clients .ClientOne .text .name span {
+  font-family: primanovacondensed;
+}
+.Clients .ClientTwo {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Clients .ClientTwo .clientImg img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 260px;
+}
+.Clients .ClientTwo .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin-right: 100px;
+}
+.Clients .ClientTwo .text .Quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Clients .ClientTwo .text .Quote span {
+  font-family: gillsansbold;
+  width: 750px;
+}
+.Clients .ClientTwo .text .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-left: 600px;
+}
+.Clients .ClientTwo .text .name span {
+  font-family: primanovacondensed;
+}
+
+@media only screen and (max-width: 500px) {
+  .BlogContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.BlogContent {
+  max-width: 80%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.BlogContent .header {
+  margin-bottom: 30px;
+}
+.BlogContent .header span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  border-bottom: 2px black solid;
+}
+.BlogContent .TopContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.BlogContent .TopContent .DateImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.BlogContent .TopContent .DateImg .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60px;
+  width: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #79ADDC;
+  border-bottom: none;
+  margin-right: 10px;
+  color: white;
+}
+.BlogContent .TopContent .DateImg .date span {
+  font-family: gillsansbold;
+  font-size: 22px;
+}
+.BlogContent .TopContent .DateImg .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 900px;
+  height: 259px;
+}
+.BlogContent .TopContent .textContent {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 70px;
+}
+.BlogContent .TopContent .head {
+  margin-top: 20px;
+}
+.BlogContent .TopContent .head span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.BlogContent .TopContent .text {
+  width: 290px;
+  margin-top: 20px;
+}
+.BlogContent .TopContent .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+  color: #79ADDC;
+}
+.BlogContent .TopContent button {
+  background-color: #79ADDC;
+  border-radius: 16px;
+  border: none;
+  width: 133px;
+  height: 40px;
+  font-family: gillsansbold;
+  color: white;
+}
+.BlogContent .BottomContent {
+  margin-top: 50px;
+}
+.BlogContent .BottomContent .DateImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.BlogContent .BottomContent .DateImg .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60px;
+  width: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #79ADDC;
+  border-bottom: none;
+  margin-right: 10px;
+}
+.BlogContent .BottomContent .DateImg .date span {
+  color: white;
+  font-family: gillsansbold;
+  font-size: 22px;
+}
+.BlogContent .BottomContent .DateImg .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 900px;
+  height: 259px;
+}
+.BlogContent .BottomContent .textContent {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 70px;
+}
+.BlogContent .BottomContent .textContent .head {
+  margin-top: 20px;
+}
+.BlogContent .BottomContent .textContent .head span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.BlogContent .BottomContent .textContent .text {
+  width: 290px;
+  margin-top: 20px;
+}
+.BlogContent .BottomContent .textContent .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+  color: #79ADDC;
+}
+.BlogContent .BottomContent .textContent button {
+  background-color: #79ADDC;
+  border-radius: 16px;
+  border: none;
+  width: 133px;
+  height: 40px;
+  font-family: gillsansbold;
+  color: white;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.OfferContent {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.OfferContent .header {
+  margin-bottom: 30px;
+}
+.OfferContent .header span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  border-bottom: 2px black solid;
+}
+.OfferContent .TopContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.OfferContent .TopContent .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 199px;
+  height: 287px;
+}
+.OfferContent .TopContent .textContent {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.OfferContent .TopContent .head span {
+  font-family: primanovacondensed;
+  font-size: 30px;
+  border-bottom: 2px black solid;
+}
+.OfferContent .TopContent .text {
+  width: 290px;
+}
+.OfferContent .TopContent .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.OfferContent .TopContent button {
+  background-color: #79ADDC;
+  border-radius: 16px;
+  border: none;
+  width: 133px;
+  height: 40px;
+  font-family: gillsansbold;
+  color: white;
+}
+.OfferContent .BottomContent {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.OfferContent .BottomContent .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 199px;
+  height: 287px;
+}
+.OfferContent .BottomContent .textContent {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.OfferContent .BottomContent .textContent .head span {
+  font-family: primanovacondensed;
+  font-size: 30px;
+  border-bottom: 2px black solid;
+}
+.OfferContent .BottomContent .textContent .text {
+  width: 290px;
+}
+.OfferContent .BottomContent .textContent .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.OfferContent .BottomContent .textContent button {
+  background-color: #79ADDC;
+  border-radius: 16px;
+  border: none;
+  width: 133px;
+  height: 40px;
+  font-family: gillsansbold;
+  color: white;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@media only screen and (max-width: 500px) {
+  .ImgRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ImgRow img {
+    margin-left: 100px;
+  }
+}
+.tour {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 170px;
+  margin: 0 auto;
+}
+.tour .TourHead {
+  margin-top: 200px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.tour .TourHead .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tour .TourHead .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 980px;
+  height: 413px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tour .TourHead .text span {
+  position: absolute;
+  top: 60px;
+  font-size: 80px;
+  left: 150px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tour .ImgRow {
+  max-width: 1500px;
+  margin-left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 1070px;
+  margin: 0 auto;
+}
+.tour .ImgRow img {
+  width: 298px;
+  height: 347px;
+}
+.tour .tour-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 150px;
+}
+.tour .tour-content .dayOne {
+  max-width: 700px;
+  margin-bottom: 20px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+.tour .tour-content .dayOne .header {
+  margin-bottom: 15px;
+}
+.tour .tour-content .dayOne .header span {
+  max-width: 700px;
+  font-family: primanovacondensed;
+  font-size: 60px;
+  border-bottom: 2px black solid;
+}
+.tour .tour-content .dayOne .text {
+  margin-bottom: 40px;
+}
+.tour .tour-content .dayOne .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.tour .tour-content .dayTwo {
+  max-width: 700px;
+  margin-bottom: 20px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+.tour .tour-content .dayTwo .header {
+  margin-bottom: 15px;
+  font-size: 60px;
+}
+.tour .tour-content .dayTwo .header span {
+  font-family: primanovacondensed;
+  border-bottom: 2px black solid;
+}
+.tour .tour-content .dayTwo .text {
+  margin-bottom: 40px;
+}
+.tour .tour-content .dayTwo .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.tour .tour-content .dayThree {
+  max-width: 700px;
+  margin-top: 20px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+.tour .tour-content .dayThree .header {
+  margin-bottom: 15px;
+  font-size: 60px;
+}
+.tour .tour-content .dayThree .header span {
+  font-family: primanovacondensed;
+  border-bottom: 2px black solid;
+}
+.tour .tour-content .dayThree .text {
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+.tour .tour-content .dayThree .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+
+.tours {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+}
+.tours .rowOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.tours .rowOne .isreal {
+  position: relative;
+}
+.tours .rowOne .isreal .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowOne .isreal .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .rowOne .isreal .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowOne .isreal .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowOne .isreal .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowOne .isreal .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowOne .isreal .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowOne .USA {
+  position: relative;
+}
+.tours .rowOne .USA .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowOne .USA .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .rowOne .USA .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowOne .USA .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowOne .USA .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowOne .USA .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowOne .USA .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowOne .australia {
+  position: relative;
+}
+.tours .rowOne .australia .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowOne .australia .text {
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  font-family: primanovacondensed;
+}
+.tours .rowOne .australia .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowOne .australia .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowOne .australia .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowOne .australia .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowOne .australia .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.tours .rowTwo .newZ {
+  position: relative;
+}
+.tours .rowTwo .newZ .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowTwo .newZ .text {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  font-family: primanovacondensed;
+}
+.tours .rowTwo .newZ .text span {
+  font-size: 60px;
+  color: white;
+  white-space: nowrap;
+}
+.tours .rowTwo .newZ .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowTwo .newZ .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowTwo .newZ .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowTwo .newZ .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowTwo .france {
+  position: relative;
+}
+.tours .rowTwo .france .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowTwo .france .text {
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  font-family: primanovacondensed;
+}
+.tours .rowTwo .france .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowTwo .france .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowTwo .france .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowTwo .france .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowTwo .france .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .rowTwo .egypt {
+  position: relative;
+}
+.tours .rowTwo .egypt .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .rowTwo .egypt .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .rowTwo .egypt .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .rowTwo .egypt .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .rowTwo .egypt .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .rowTwo .egypt .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .rowTwo .egypt .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .RowThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.tours .RowThree .japan {
+  position: relative;
+}
+.tours .RowThree .japan .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .RowThree .japan .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .RowThree .japan .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .RowThree .japan .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .RowThree .japan .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .RowThree .japan .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .RowThree .japan .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .RowThree .canada {
+  position: relative;
+}
+.tours .RowThree .canada .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .RowThree .canada .text {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  font-family: primanovacondensed;
+}
+.tours .RowThree .canada .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .RowThree .canada .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .RowThree .canada .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .RowThree .canada .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .RowThree .canada .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+.tours .RowThree .UAE {
+  position: relative;
+}
+.tours .RowThree .UAE .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 236px;
+  height: 304px;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+.tours .RowThree .UAE .text {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: primanovacondensed;
+}
+.tours .RowThree .UAE .text span {
+  font-size: 60px;
+  color: white;
+}
+.tours .RowThree .UAE .subText {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+.tours .RowThree .UAE .subText span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  color: white;
+}
+.tours .RowThree .UAE .button {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.tours .RowThree .UAE .button button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: #79ADDC;
+  color: white;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@media only screen and (max-width: 900px) {
+  .ImgInput {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ImgInput input {
+    margin-left: -70px;
+    margin-top: 20px;
+  }
+  .ImgInput button {
+    margin-left: 89px;
+  }
+}
+.contactContent {
+  max-width: 80%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.contactContent .header {
+  margin-bottom: 20px;
+}
+.contactContent .header span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  border-bottom: 2px black solid;
+}
+.contactContent .ImgInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactContent .ImgInput .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 442px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.contactContent .ImgInput .inputs {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactContent .ImgInput .inputs input {
+  width: 529px;
+  height: 60px;
+  margin-bottom: 10px;
+  background-color: #F5F5F5;
+  font-family: gillsansbold;
+}
+.contactContent .ImgInput .inputs input ::-webkit-input-placeholder {
+  margin-left: 8px;
+}
+.contactContent .ImgInput .inputs input ::-moz-placeholder {
+  margin-left: 8px;
+}
+.contactContent .ImgInput .inputs input :-ms-input-placeholder {
+  margin-left: 8px;
+}
+.contactContent .ImgInput .inputs input ::-ms-input-placeholder {
+  margin-left: 8px;
+}
+.contactContent .ImgInput .inputs input ::placeholder {
+  margin-left: 8px;
+}
+.contactContent .ImgInput .inputs .message input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 529px;
+  height: 199px;
+}
+.contactContent .ImgInput .inputs .message input ::-webkit-input-placeholder {
+  margin-left: 8px;
+  display: -webkit-box;
+  display: flex;
+}
+.contactContent .ImgInput .inputs .message input ::-moz-placeholder {
+  margin-left: 8px;
+  display: flex;
+}
+.contactContent .ImgInput .inputs .message input :-ms-input-placeholder {
+  margin-left: 8px;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactContent .ImgInput .inputs .message input ::-ms-input-placeholder {
+  margin-left: 8px;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactContent .ImgInput .inputs .message input ::placeholder {
+  margin-left: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactContent .ImgInput .inputs .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 529px;
+}
+.contactContent .ImgInput .inputs .button button {
+  background-color: #79ADDC;
+  border: none;
+  width: 168px;
+  height: 60px;
+  font-family: gillsansbold;
+  color: white;
+}
+.contactContent .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactContent .contact span {
+  font-family: gillsansbold;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@media only screen and (max-width: 900px) {
+  nav {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .links {
+    position: fixed;
+    top: 50px;
+    left: 80px;
+  }
+  nav .logo {
+    position: fixed;
+    left: 210px;
+    top: 35px;
+  }
+  nav .bottom {
+    position: fixed;
+    top: 120px;
+    width: 400px;
+  }
+  .tours .rowOne {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tours .rowTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tours .RowThree {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .copyright {
+    margin-left: 50px;
+  }
+}
+nav {
+  height: 0;
+  top: 50px;
+  left: 100px;
+  max-width: 100%;
+  position: fixed;
+  background-color: transparent;
+  width: 800px;
+  max-width: 800px;
+  min-width: 100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .links {
+  height: 42px;
+  width: 300px;
+  white-space: nowrap;
+  margin-top: 40px;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+nav .links span {
+  margin-left: 5px;
+  color: black;
+}
+nav .logo {
+  border: black 2px solid;
+  height: 42px;
+  width: 80px;
+}
+nav .logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 17px;
+  font-size: 20px;
+  font-family: gillsansbold;
+  white-space: nowrap;
+  color: black;
+  width: 92px;
+  height: 42px;
+}
+
+.bottom {
+  width: 90%;
+  border-bottom: 2px black solid;
+  position: fixed;
+  top: 80px;
+  left: 60px;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.TourHero {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+.TourHero .image {
+  width: 981px;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../images/tours-header\ \(1\).jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/tours-header\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.TourHero .header {
+  position: absolute;
+  top: 110px;
+}
+.TourHero .header span {
+  font-size: 60px;
+  font-family: primanovacondensed;
+  color: white;
+}

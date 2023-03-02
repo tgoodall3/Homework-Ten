@@ -1,0 +1,117 @@
+@font-face {
+    font-family: gillsansbold;
+    src: url(../fonts/GillSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: gillsanslight;
+    src: url(../fonts/GillSans-Light.ttf);
+}
+
+@font-face {
+    font-family: primanovacondensed;
+    src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@media only screen and (max-width: 600px) { 
+    
+}
+
+
+.OfferContent{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+    .header{
+        margin-bottom: 30px;
+        span{
+            font-size: 30px;
+            font-family: primanovacondensed;
+            border-bottom: 2px black solid;
+        }
+    }
+
+    .TopContent{
+        display: flex;
+        .image{
+            img{
+                display: flex;
+                width: 199px;
+                height: 287px;
+                
+            }
+        }
+        .textContent{
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .head{
+            span{
+                font-family: primanovacondensed;
+                font-size: 30px;
+                border-bottom: 2px black solid;
+            }
+        }
+        .text{
+            width: 290px;
+            span{
+                font-family: gillsansbold;
+                font-size: 16px;
+            }
+        }
+        button{
+            background-color: #79ADDC;
+            border-radius: 16px;
+            border: none;
+            width: 133px;
+            height: 40px;
+            font-family: gillsansbold;
+            color: white;
+        }
+    }
+
+    .BottomContent{
+        margin-top: 50px;
+        display: flex;
+        .image{
+            img{
+                display: flex;
+                width: 199px;
+                height: 287px;
+            }
+        }
+        .textContent{
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .head{
+                span{
+                    font-family: primanovacondensed;
+                    font-size: 30px;
+                    border-bottom: 2px black solid;
+                }
+            }
+            .text{
+                width: 290px;
+                span{
+                    font-family: gillsansbold;
+                    font-size: 16px;
+                }
+            }
+
+            button{
+                background-color: #79ADDC;
+                border-radius: 16px;
+                border: none;
+                width: 133px;
+                height: 40px;
+                font-family: gillsansbold;
+                color: white;
+            }
+        }
+    }
+}

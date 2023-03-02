@@ -1,0 +1,168 @@
+@font-face {
+    font-family: gillsansbold;
+    src: url(../fonts/GillSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: gillsanslight;
+    src: url(../fonts/GillSans-Light.ttf);
+}
+
+@font-face {
+    font-family: primanovacondensed;
+    src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@media only screen and (max-width: 500px) {
+    .ImgRow{
+        display: flex;
+        flex-direction: column;
+       
+        img{
+            margin-left: 100px;
+        }
+    } 
+}
+
+
+.tour{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 170px;
+    margin: 0 auto;
+
+    .TourHead{
+        margin-top: 200px;
+        position: relative;
+        margin-bottom: 20px;
+        .image{
+            display: flex;
+            justify-content: center;
+            img{
+                display: flex;
+                width: 980px;
+                height: 413px;
+                filter: brightness(75%);
+           
+            }
+        }
+
+        .text{
+            
+            span{
+                position: absolute;
+                top: 60px;
+                font-size: 80px;
+                left: 150px;
+                font-family: primanovacondensed;
+                color: white;
+            }
+        }
+    }
+
+    .ImgRow{
+        max-width: 1500px;
+        margin-left: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 1070px;
+        margin: 0 auto;
+        img{
+            
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .tour-content{
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        .dayOne{
+            max-width: 700px;
+            margin-bottom: 20px;
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+            .header{
+                margin-bottom: 15px;
+                
+                span{
+                    max-width: 700px;
+                    font-family: primanovacondensed;
+                    font-size: 60px;
+                    border-bottom: 2px black solid;
+                }
+            }
+            .text{
+               margin-bottom: 40px;
+
+               span{
+                font-family: gillsansbold;
+                font-size: 16px;
+               }
+            }
+        }
+
+        .dayTwo{
+            max-width: 700px;
+            margin-bottom: 20px;
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+            .header{
+                margin-bottom: 15px;
+                font-size: 60px;
+               
+                span{
+                    font-family: primanovacondensed;
+                    border-bottom: 2px black solid;
+                }
+            }
+            .text{
+                margin-bottom: 40px;
+
+                span{
+                    font-family: gillsansbold;
+                    font-size: 16px;
+                   }
+            }
+        }
+
+        .dayThree{
+            max-width: 700px;
+            margin-top: 20px;
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+            .header{
+                margin-bottom: 15px;
+                font-size: 60px;
+                
+                span{
+                    font-family: primanovacondensed;
+                    border-bottom: 2px black solid; 
+                }
+            }
+            .text{
+                margin-bottom: 40px;
+                max-width: 700px;
+
+                span{
+                    font-family: gillsansbold;
+                    font-size: 16px;
+                   }
+            }
+        }
+    }
+}

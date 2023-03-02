@@ -1,0 +1,455 @@
+
+
+
+.tours{
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    .rowOne{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        .isreal{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 70px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+
+        .USA{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 70px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+
+        .australia{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 35px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+    }
+
+    .rowTwo{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        .newZ{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 5px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                    white-space: nowrap;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+
+        .france{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 55px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+
+        .egypt{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 70px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+    }
+
+    .RowThree{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        .japan{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 70px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+
+        .canada{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 60px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+
+        .UAE{
+            position: relative;
+            .image{
+                img{
+                    display: flex;
+                    width: 236px;
+                    height: 304px;
+                    filter: brightness(75%);
+                }
+            }
+            .text{
+                position: absolute;
+                top: 50px;
+                left: 70px;
+                font-family: primanovacondensed;
+                span{
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .subText{
+                position: absolute;
+                top: 120px;
+                left: 65px;
+                span{
+                    font-size: 30px;
+                    font-family: primanovacondensed;
+                    color: white;
+                }
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-size: 15px;
+                    font-family: gillsansbold;
+                }
+            }
+
+        }
+    }
+}

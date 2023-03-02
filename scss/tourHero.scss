@@ -1,0 +1,49 @@
+@font-face {
+    font-family: gillsansbold;
+    src: url(../fonts/GillSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: gillsanslight;
+    src: url(../fonts/GillSans-Light.ttf);
+}
+
+@font-face {
+    font-family: primanovacondensed;
+    src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+
+.TourHero{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    .image{
+        width: 981px;
+        height: 200px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/tours-header\ \(1\).jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header{
+        position: absolute;
+        top: 110px;
+
+        span{
+            font-size: 60px;
+            font-family: primanovacondensed;
+            color: white;
+        }
+    }
+}

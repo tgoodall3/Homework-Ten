@@ -1,0 +1,123 @@
+@font-face {
+    font-family: gillsansbold;
+    src: url(../fonts/GillSans-Bold.ttf);
+}
+
+@media only screen and (max-width: 900px) {
+    nav{
+        position: relative;
+            display: flex;
+            flex-direction: column;
+            
+            .links{
+                position: fixed;
+                top: 50px;
+                left: 80px;
+            }
+            
+            .logo{
+                position: fixed;
+                left: 210px;
+                top: 35px;
+            }
+            .bottom {
+                position: fixed;
+                top: 120px;
+                width: 400px;
+            }
+       }
+
+       .tours{
+        
+        .rowOne{
+            display: flex;
+        flex-direction: column;
+        }
+
+        .rowTwo{
+            display: flex;
+        flex-direction: column;
+        }
+
+        .RowThree{
+            display: flex;
+        flex-direction: column;
+        }
+       }
+
+
+      
+
+       footer{
+        .copyright{
+            margin-left: 50px;
+        }
+       }
+}
+
+
+nav{
+    height: 0;
+    top: 50px;
+    left: 100px;
+    max-width: 100%;
+    position: fixed;
+    background-color: transparent;
+    width: 800px;
+    max-width: 800px;
+    min-width: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .links{
+        height: 42px;
+        width: 300px;
+        white-space: nowrap;
+        margin-top: 40px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-family: gillsansbold;
+        }
+
+        span{
+            margin-left: 5px;
+            color: black;
+            
+        }
+
+    }
+
+    .logo{
+        border: black 2px solid;
+        height: 42px;
+        width: 80px;
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 17px;
+            font-size: 20px;
+            font-family: gillsansbold;
+            white-space: nowrap;
+            color: black;
+        width: 92px;
+        height: 42px;
+        
+        }
+    }
+
+    
+}
+
+.bottom{
+    width: 90%;
+    border-bottom: 2px black solid;
+    position: fixed;
+    top: 80px;
+    left: 60px;
+}
